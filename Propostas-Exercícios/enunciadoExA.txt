@@ -1,0 +1,46 @@
+ Problema A
+ ALTURA MÍNIMA
+ Autoria: Maratona de Programação da SBC- ICPC 2023
+ Timelimit: 1.0s
+ /////
+ Carlitos é um entusiasta de aventuras com um amor insaciável por parques de diversões. Apesar da
+ sua paixão vibrante, Carlitos enfrenta um desafio único: a sua estatura limitada. Enquanto planeja
+ ansiosamente sua aventura de fim de semana, ele percebe que suas limitações verticais podem atrapa
+ lhar sua experiência no parque de diversões. Não se trata apenas de escolher um parque; trata-se de
+ encontrar um onde ele possa aproveitar a emoção dos brinquedos.
+
+ Imagine o caleidoscópio de cores, as risadas jubilosas e a adrenalina dos passeios. Carlitos sempre foi
+ atraído pela energia dos parques de diversões. Com o fim de semana se aproximando, ele se debruça
+ sobre os folhetos do parque, estudando os requisitos de altura de cada passeio. O objetivo dele é
+ maximizar sua diversão, e é aí que você entra.
+
+ Sua tarefa é ajudar Carlitos a determinar o número de passeios que ele pode desfrutar em um parque
+ específico. Considerando sua altura e os requisitos mínimos de altura de cada passeio, oriente-o a
+ aproveitar ao máximo sua aventura no parque de diversões.
+ /////
+ Entrada
+
+ A primeira linha contém dois números inteiros, 𝑁 e 𝐻 (1 ≤ 𝑁 ≤ 6 e 90 ≤ 𝐻 ≤ 200), que representam
+ a quantidade de brinquedos em um parque e a altura de Carlitos em centímetros, respectivamente.
+
+ Na segunda linha da entrada, serão fornecidas as alturas mínimas 𝐴1,..., 𝐴𝑁 (90 ≤ 𝐴𝑖 ≤ 200) de cada
+ umdos brinquedos do parque.
+ 
+ Saída
+
+ Seu programa deve imprimir uma única linha contendo a quantidade de brinquedos nos quais Carlitos
+ pode ir, ou seja, a quantidade de brinquedos para os quais a altura de Carlitos é pelo menos tão grande
+ quanto a altura mínima necessária.
+ /////
+ Exemplos
+ Entrada
+ 1 100
+ 100
+ Saída
+ 1
+ //
+ Entrada
+ 6 120
+ 200 90 100 123 120 169
+ Saída
+ 3

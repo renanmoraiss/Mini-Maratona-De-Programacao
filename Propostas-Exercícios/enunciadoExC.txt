@@ -1,0 +1,40 @@
+ Problema C
+ CORAÇÕES PARA UM POETA
+ Autoria: Poetas da Roça
+ Timelimit: 1s
+ /////
+ De tanto recitar poemas e declamar poesias, o Poeta da Roça Tonet conquistou diversos corações du
+ rante sua carreira. Todos os corações que ele conquistava, representados por “S2”, eram armazenados
+ em umarquivo de texto.
+
+ Um certo dia, enquanto ele estava estudando programação, acidentalmente ele modificou esse arquivo
+ de texto e adicionou vários pontos ‘’.’‘ nas cadeias de caracteres. Desesperado, ele não queria perder a
+ quantidade de corações que ele tinha conquistado.
+
+ Para resolver esse problema, ele precisou excluir todos os pontos “.” da cadeia de caracteres, sendo
+ que a cada coração recuperado, novos corações poderiam ser formados.
+
+ Por exemplo, se ele tem como entrada a cadeia “.S...SS..22....2....222.”, três corações são recuperados:
+ 
+ - O primeiro é recuperado de “S..2“, resultando em “.S...S2....2....222.“- Em seguida, o segundo co
+ ração é recuperado, restando “.S.......2....222.“- O terceiro coração é então recuperado, restando no
+ final “.....222.“, sem mais nenhuma possibilidade de recuperação.
+ /////
+ Entrada
+
+ A primeira linha contém um valor inteiro 𝑁 (1 ≤ 𝑁 ≤ 104) que representa a quantidade de casos
+ de teste. Cada caso de teste é composto por uma linha contendo até 1000 caracteres (mínimo 1),
+ contendo apenas os caracteres “S“, “2“ e “.“.
+
+ Saída
+
+ A saída consiste na quantidade de corações possíveis de serem recuperados em cada caso de entrada.
+ /////
+ Exemplos
+ Entrada
+ 2
+ .S...SS..22....2....222.
+ SSS..S......SSSS....2
+ Saída
+ 3
+ 1

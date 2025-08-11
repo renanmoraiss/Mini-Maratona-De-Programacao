@@ -1,3 +1,5 @@
+//passou em todos os testes
+
 #include <stdio.h>
 #include <string.h>
 

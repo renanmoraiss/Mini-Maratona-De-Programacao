@@ -1,4 +1,4 @@
-<h1 align="center">Mini Maratona de Programação - UNIFEI</h1>
+<h1 align="center">UNIFEI - Mini Maratona de Programação</h1>
 
 ###
 
